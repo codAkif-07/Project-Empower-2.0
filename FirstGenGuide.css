@@ -1,0 +1,416 @@
+/*
+FULL PROJECT
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: burlywood;
+}
+
+/*
+NAVBAR SECTION
+*/
+
+#navbar {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    height: 20;
+    overflow: hidden;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    opacity: 0.6;
+}
+
+/*
+WELCOME SECTION
+*/
+#welcome-section img {
+    max-height: 300px;
+    margin: 0;
+    padding: 0;
+}
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#welcome-section h1 {
+    margin: 0 0 0 0;
+    font-size: 60px;
+    color: black;
+}
+
+#welcome-section h3 {
+    font-size: 35px;
+    color: black;
+}
+
+#welcome-section p {
+    font-size: 30px;
+    color: rgb(37, 35, 35);
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+/*
+GUIDE SECTION
+*/
+
+#guide-section h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 15px 0 10px 0;
+}
+
+#guide-section li {
+    font-size: 20px;
+    margin: 5px 0 10px 0;
+}
+
+#guide-section p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#good-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#good-text a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#guide-section a {
+    color:#589017;
+}
+
+#guide-section a:hover {
+    opacity: 0.6;
+}
+
+#guide-section a:active {
+    color:#4a7b13;
+}
+
+#guide-section a:visited {
+    color:#406a10;
+}
+
+/*
+TIPS SECTION
+*/
+
+#tips-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tips-section h2 {
+    font-size: 30px;
+    margin: 15px 0 10px 0;
+}
+
+#tips-section p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#tips-section h3 {
+    font-size: 25px;
+    padding: 0;
+}
+
+#tips-section ul {
+    font-size: 20px;
+    margin: 5px 0 10px 0;
+}
+
+/*
+MOTIVATION SECTION
+*/
+
+#motivation-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#motivation-section h2 {
+    font-size: 30px;
+}
+
+#motivation-section h3 {
+    font-size: 25px;
+}
+
+#motivation-section p {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+#motivation-section form {
+    padding: 30px 0 0 0;
+    font-size: 18px;
+}
+
+.container {
+    background: rgb(0, 0, 0);
+    padding: 20px 30px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+}
+
+.container .title {
+    font-weight: 700;
+    color:#6eb41d;
+    font-size: 2.2rem;
+}
+
+.quote_text {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 20px;
+    color: white;
+}
+
+.gnBtn {
+    width: 80%;
+    height: 50px;
+    margin-top: 25px;
+    background-color: rgb(47, 44, 41);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color:#6eb41d;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.gnBtn:hover {
+    opacity: 0.6;
+}
+
+#anchor {
+    color: #589017
+
+}
+
+#anchor:hover {
+    opacity: 0.4;
+}
+
+#anchor:visited {
+    color: #406a10
+}
+
+#anchor:active {
+    color: #4a7b13;
+}
+
+#description {
+    color: rgb(67, 66, 66);
+}
+
+.leana {
+    max-height: 150px;
+    border: 3px solid;
+}
+
+.ursula {
+    margin: 30px 0 0 0;
+    max-height: 170px;
+    border: 3px solid;
+}
+
+input {
+    background-color: rgb(200, 197, 197);
+}
+
+textarea {
+    background-color: rgb(200, 197, 197);
+    width: 100%;
+    height: 160px;
+}
+
+.submit {
+    background-color: black;
+    color: #6eb41d;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 25px;
+}
+
+.submit:hover {
+    opacity: 0.7;
+}
+/*
+CALCULATOR SECTION
+*/
+
+#calculator-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+FAQ SECTION
+*/
+
+#faq-section h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#faq-section a {
+    color:#589017;
+}
+
+#faq-section a:hover {
+    opacity: 0.6;
+}
+
+#faq-section a:visited {
+    color: #406a10;
+}
+
+#faq-section a:active {
+    color: #4a7b13;
+}
+
+/*
+footer
+*/
+
+.contact {
+    display: flex;
+}
+
+.eljan {
+    position: absolute;
+    right: 0;
+}
+
+.akif {
+    position: absolute;
+    left: 0;
+}
+
+.footer {
+    background-color:rgb(17, 17, 17);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .contact, .footer .social-media, .footer .newsletter, .footer .credits {
+    margin-bottom: 20px;
+}
+
+.footer label {
+    color: rgb(75, 74, 74);
+}
+
+.footer input {
+    background-color: rgb(200, 197, 197);
+    color:rgb(75, 74, 74);
+}
+
+.footer button {
+    background-color: black;
+    color:#6eb41d;
+}
+
+footer p {
+    color:rgb(75, 74, 74);
+}
+
+footer a {
+    color:#6eb41d;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#instagram {
+    color:blueviolet;
+}
+
+#linkedin {
+    color:blue;
+}
+
+/*
+LINES
+*/
+
+hr {
+    border: solid;
+    border-top: 2px;
+    border-bottom: 2px;
+    height: 3px;
+    background-color:#6eb41d;
+    color:#6eb41d;
+    margin: 20px;
+    padding: 0;
+}
