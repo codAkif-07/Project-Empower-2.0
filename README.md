@@ -27,13 +27,13 @@ This project is designed to help first-generation, low-income students choose an
 
 # Usage Instructions
 1. Navigating the Website:
-     Home Page: The home page provides an overview of the site's features and main objectives. Use the navigation menu to access different sections of the website.
-     Guide Section: Provides a general guide to choosing and getting addmitted to a right college. This section also explains the importance of the American education system along with providing alternative path aside from traditional college.
-     Tips Section: This section provides basic tips to help students in one of 3 issues, financial, mental or academic.
-     Motivation Section: Motivates Students to continue purusing their goals. This section has a motivational generator, which generates a random motivational quote with a simple click of a button. It also has success stories of other FGLI students and an option for you to share your own journey.
-     Calculator Section: Allows Users to calculate the cost of tuition for a set college. To use you can select a college from the dropdown list, choose whether you are in-state or out-of-state and click calculate, additionaly you can filter through colleges by using the input bar above the dropdown button.
-     FAQ Section: Provides answers to some questions a user might have.
-     Footer: Has the website developers contact information aswell as the websites copyright claim.
+2. Home Page: The home page provides an overview of the site's features and main objectives. Use the navigation menu to access different sections of the website.
+3. Guide Section: Provides a general guide to choosing and getting addmitted to a right college. This section also explains the importance of the American education system along with providing alternative path aside from traditional college.
+4. Tips Section: This section provides basic tips to help students in one of 3 issues, financial, mental or academic.
+5. Motivation Section: Motivates Students to continue purusing their goals. This section has a motivational generator, which generates a random motivational quote with a simple click of a button. It also has success stories of other FGLI students and an option for you to share your own journey.
+6. Calculator Section: Allows Users to calculate the cost of tuition for a set college. To use you can select a college from the dropdown list, choose whether you are in-state or out-of-state and click calculate, additionaly you can filter through colleges by using the input bar above the dropdown button.
+7. FAQ Section: Provides answers to some questions a user might have.
+8. Footer: Has the website developers contact information aswell as the websites copyright claim.
 
-   # Contribution Guidelines
-   You can contribute to this project as much as you like, aslong as your edits follow the narative of this project.
+# Contribution Guidelines
+You can contribute to this project as much as you like, aslong as your edits follow the narative of this project.
