@@ -1,0 +1,711 @@
+/*
+FULL PROJECT
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: burlywood;
+}
+
+/*
+NAVBAR
+*/
+
+#navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a, .dropbtn {
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(29, 29, 29, 0.7);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    font-family: inherit;
+    margin: 0;
+    font-size: 23px;
+}
+
+.caret {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    margin-left: 8px;
+    transform: rotate(45deg);
+    vertical-align: middle;
+    transition: transform 0.2s ease;
+}
+
+.dropdown:hover .caret {
+    transform: rotate(-135deg);
+}
+
+.dropdown-content {
+    display: none;
+    position: inherit;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    min-width: 100px;
+    max-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 23px;
+}
+
+.dropdown-content a:hover {
+    opacity: 0.7;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*
+WELCOME SECTION
+*/
+
+#www {
+    max-height: 300px;
+    margin: 0;
+    padding: 0;
+}
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#welcome-section h1 {
+    margin: 0 0 0 0;
+    font-size: 60px;
+    color: black;
+}
+
+#welcome-section h3 {
+    font-size: 35px;
+    color: black;
+}
+
+#welcome-section p {
+    font-size: 30px;
+    color: rgb(37, 35, 35);
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+/*
+GUIDE SECTION
+*/
+
+#guide-section h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 15px 0 10px 0;
+}
+
+#guide-section li {
+    font-size: 23px;
+    margin: 5px 0 10px 0;
+}
+
+#guide-section p {
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+    text-align: center;;
+}
+
+
+.ac-list {
+    text-align: center;
+    border: solid;
+    border-radius: 20px;
+    border-style: dashed;
+    border-color:black;
+    margin: 10px 190px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.ac-list li {
+    color:rgb(56, 56, 56);
+}
+
+.ac-list b {
+    color:black;
+}
+
+#guide-section a {
+    color:#589017;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+#guide-section a:hover {
+    opacity: 0.6;
+}
+
+#guide-section a:active {
+    color:#4a7b13;
+}
+
+#guide-section a:visited {
+    color:#406a10;
+}
+
+/*
+TIPS SECTION
+*/
+
+#tips-section {
+    text-align: center;
+}
+
+#tips-section h2 {
+    font-size: 30px;
+    margin: 15px 0 10px 0;
+}
+
+#tips-section p {
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+}
+
+#tips-section h3 {
+    font-size: 25px;
+    padding: 0;
+    margin: 10px;
+}
+
+#tips-section ul {
+    font-size: 23px;
+    text-align: center;
+    border: solid;
+    border-radius: 20px;
+    border-style: dashed;
+    border-color:black;
+    margin: 10px 300px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tips-section ul li {
+    margin: 10px;
+}
+
+/*
+MOTIVATION SECTION
+*/
+
+#motivation-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#motivation-section h2 {
+    font-size: 30px;
+    margin: 15px 0 0 0;
+}
+
+#motivation-section p {
+    font-size: 23px;
+    text-align: center;
+}
+
+#motivation-section form {
+    padding: 30px 0 0 0;
+    font-size: 18px;
+}
+
+.container {
+    background: rgb(0, 0, 0);
+    padding: 20px 30px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+}
+
+.container .title {
+    font-weight: 700;
+    color:#6eb41d;
+    font-size: 2.2rem;
+}
+
+.quote_text {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 20px;
+    color: white;
+}
+
+.gnBtn {
+    width: 80%;
+    height: 50px;
+    margin-top: 25px;
+    background-color: rgb(47, 44, 41);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color:#6eb41d;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.gnBtn:hover {
+    opacity: 0.6;
+}
+
+#anchor {
+    color: #589017
+
+}
+
+#anchor:hover {
+    opacity: 0.4;
+}
+
+#anchor:visited {
+    color: #406a10
+}
+
+#anchor:active {
+    color: #4a7b13;
+}
+
+#description {
+    color: rgb(67, 66, 66);
+    text-align: center;
+}
+
+.leana {
+    max-height: 150px;
+    border: 3px solid;
+    display: block;
+    margin: 15px auto 0 auto;
+}
+
+.ursula {
+    display: block;
+    margin: 15px auto 0 auto;
+    max-height: 170px;
+    border: 3px solid;
+}
+
+input {
+    background-color: rgb(200, 197, 197);
+    font-size: 18px;
+    outline: none;
+}
+
+textarea {
+    background-color: rgb(200, 197, 197);
+    width: 100%;
+    height: 160px;
+    font-size: 18px;
+}
+
+.submit {
+    background-color: black;
+    color: #6eb41d;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    width: 45%;
+    height: 35px;
+    font-size: 23px;
+}
+
+.submit:hover {
+    opacity: 0.7;
+}
+
+#quack label{
+    font-size: 23px;
+}
+/*
+CALCULATOR SECTION
+*/
+
+#calculator-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator-section h2 {
+    font-size: 30px;
+}
+
+#calculator-section p {
+    font-size: 23px;
+}
+
+#calculator-section h3 {
+    color:white;
+    font-size: 25px;
+    margin: 0 15px 15px 0;
+}
+
+#calculator-section label {
+    color:white;
+    padding: 15px;
+    margin: 40px 0 40px 0;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+#calculator-section label:hover {
+    opacity: 0.7;
+}
+
+#calculate {
+    background-color: black;
+    padding: 20px 30px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#schoolDropdown {
+    text-align: center;
+    margin: 15px;
+    width: 550px;
+    background-color: rgb(47, 44, 41);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#schoolDropdown:hover {
+    opacity: 0.7;
+}
+
+#showTuition {
+    background-color: rgb(47, 44, 41);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #6eb41d;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px 0 15px 0 ;
+    box-shadow: 0px 8px 16px 0px rgba(72, 72, 72, 0.2);
+    cursor: pointer;
+}
+
+#showTuition:hover {
+    opacity: 0.7;
+}
+
+.ddd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#guidanceMessage {
+    color: white;
+    font-size: 23px;
+    padding: 20px 0 7px 0;
+}
+
+#calculator-section b {
+    color:black;
+    font-size: 25px;
+    margin: 30px 0 0 0;
+}
+
+#filterInput {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.qwerty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qwerty p {
+    color:white;
+    text-align: center;
+}
+
+.qwerty input {
+    text-align: center;
+    background-color: rgb(47, 44, 41);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+/*
+FAQ SECTION
+*/
+
+#faq-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 2rem 0rem;
+}
+
+.faq {
+    max-width: 700px;
+    margin-top: 2rem;
+    margin-bottom: 35px;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #4a7b13;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    font-size: 1.8rem;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+    text-align: center;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active svg {
+    transform: rotate(180deg);
+}
+
+svg {
+    transition: transform 0.5s ease-in;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+#faq-section h2 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+#faq-section a {
+    color:#589017;
+}
+
+#faq-section a:hover {
+    opacity: 0.6;
+}
+
+#faq-section a:visited {
+    color: #406a10;
+}
+
+#faq-section a:active {
+    color: #4a7b13;
+}
+
+/*
+footer
+*/
+
+.contact {
+    display: flex;
+}
+
+.contact p {
+    font-size: 23px;
+    margin: 10px
+}
+
+.eljan {
+    position: absolute;
+    right: 0;
+}
+
+.akif {
+    position: absolute;
+    left: 0;
+}
+
+.footer {
+    background-color:rgb(10, 10, 10);
+    padding: 10px;
+    text-align: center;
+    border: solid;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .contact, .footer .social-media, .footer .newsletter, .footer .credits {
+    margin-bottom: 20px;
+}
+
+.footer label {
+    color: rgb(75, 74, 74);
+    font-size: 20px;
+}
+
+.footer input {
+    background-color: rgb(200, 197, 197);
+    color:rgb(75, 74, 74);
+    font-size: 20px;
+}
+
+.footer button {
+    background-color: black;
+    color:#6eb41d;
+    font-size: 18px;
+}
+
+footer p {
+    color:rgb(75, 74, 74);
+    font-size: 17px;
+    margin: 0;
+}
+
+footer a {
+    color:#6eb41d;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#instagram {
+    color:blueviolet;
+}
+
+#linkedin {
+    color:blue;
+}
+
+#qqq {
+    max-width: 180px;
+    padding: 0;
+    margin: 0;
+}
+
+/*
+LINES
+*/
+
+hr {
+    border: solid;
+    border-top: 2px;
+    border-bottom: 2px;
+    height: 3px;
+    background-color:#6eb41d;
+    color:#6eb41d;
+    margin: 20px;
+    padding: 0;
+}
